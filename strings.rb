@@ -34,3 +34,13 @@ puts phrase.strip() #removing trailing and leading white spaces
 puts phrase.include? "cool"
 # true for this case
 #checking whether a string contains a certain string
+
+puts my_phrase[0]
+#J
+
+puts my_phrase[0,3]
+#Jon
+
+puts my_phrase.index("J")
+
+#ouputs the index at which J is which is 0.
