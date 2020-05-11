@@ -54,3 +54,22 @@ enemies[2]="Girls"
 puts enemies.length() #returns the number of items in the array.
 
 puts enemies.include? "Ciggerettes" #returns true
+
+
+puts enemies.reverse()
+
+=begin
+    Girls
+    Ciggerettes
+    Beer    
+=end
+
+
+#sorting the items
+puts enemies.sort()
+
+=begin
+    Beer
+    Ciggerettes
+    Girls
+=end #this is only applies to an array of a single datatype
